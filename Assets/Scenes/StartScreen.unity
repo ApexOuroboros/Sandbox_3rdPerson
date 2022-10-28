@@ -466,7 +466,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 512572972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1460073296}
+        m_TargetAssemblyTypeName: menuControl, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &512572972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,7 +751,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 973162769}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1460073296}
+        m_TargetAssemblyTypeName: menuControl, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &973162769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,6 +813,7 @@ GameObject:
   - component: {fileID: 1460073293}
   - component: {fileID: 1460073295}
   - component: {fileID: 1460073294}
+  - component: {fileID: 1460073296}
   m_Layer: 5
   m_Name: StartMenu
   m_TagString: Untagged
@@ -856,6 +881,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460073292}
   m_CullTransparentMesh: 1
+--- !u!114 &1460073296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460073292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb994733ae9412c4fb4e218cc2106918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playScene: 
 --- !u!1 &1736411547
 GameObject:
   m_ObjectHideFlags: 0
